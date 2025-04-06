@@ -41,6 +41,44 @@ namespace gp2.Services.Services
             return _mapper.Map<IEnumerable<GetUserDTO>>(users);
         }
 
+        public async Task<GetUserDTO?> GetUserByIdAsync(int id)
+        {
+            var user = await _userRepository.GetUserByIdAsync(id);
+            if (user == null)
+            {
+                return null;
+            }
+
+            return _mapper.Map<GetUserDTO>(user);
+        }
+
+
+        public async Task<bool> DeleteUserAsync(DeleteUserDTO deleteUserDTO)
+        {
+            // Kullanıcıyı veritabanında kontrol et
+            var user = await _userRepository.GetUserByIdAsync(deleteUserDTO.UserId);
+            if (user == null)
+            {
+                return false;
+            }
+
+            await _userRepository.DeleteUserAsync(user);
+            return true;
+        }
+
+        public async Task<bool> UpdateUserAsync(UpdateUserDTO updateUserDTO)
+        {
+            var existingUser = await _userRepository.GetUserByIdAsync(updateUserDTO.UserId);
+            if (existingUser == null)
+            {
+                return false;
+            }
+
+            _mapper.Map(updateUserDTO, existingUser);
+
+            await _userRepository.UpdateUserAsync(existingUser);
+            return true;
+        }
 
 
 

@@ -17,6 +17,9 @@ namespace gp2.Helpers.AutoMapperProfiles
             CreateMap<User, DeleteUserDTO>();
             CreateMap<DeleteUserDTO, User>();
 
+            CreateMap<UpdateUserDTO, User>();
+            CreateMap<User, UpdateUserDTO>();
+
         }
     }
 }

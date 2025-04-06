@@ -5,6 +5,7 @@ C:\Users\berdan\Desktop\gradpro\gp2\obj\Debug\net9.0\gp2.AssemblyInfo.cs
 C:\Users\berdan\Desktop\gradpro\gp2\obj\Debug\net9.0\gp2.csproj.CoreCompileInputs.cache
 C:\Users\berdan\Desktop\gradpro\gp2\obj\Debug\net9.0\gp2.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\berdan\Desktop\gradpro\gp2\obj\Debug\net9.0\gp2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\berdan\Desktop\gradpro\gp2\obj\Debug\net9.0\gp2.sourcelink.json
 C:\Users\berdan\Desktop\gradpro\gp2\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\berdan\Desktop\gradpro\gp2\bin\Debug\net9.0\appsettings.json
 C:\Users\berdan\Desktop\gradpro\gp2\bin\Debug\net9.0\gp2.staticwebassets.endpoints.json

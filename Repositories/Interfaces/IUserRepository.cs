@@ -10,5 +10,10 @@ namespace gp2.Repositories.Interfaces
 
         Task<IEnumerable<User>> GetAllUsers();
 
+        Task<User?> GetUserByIdAsync(int id);
+
+        Task DeleteUserAsync(User user);
+
+        Task UpdateUserAsync(User user);
     }
 }

@@ -3,36 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\berdan\\Desktop\\gradpro\\gp2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0D1A3CB-6D1C-46C8-B0BD-479B8CC19A58}|gp2.csproj|c:\\users\\berdan\\desktop\\gradpro\\gp2\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0D1A3CB-6D1C-46C8-B0BD-479B8CC19A58}|gp2.csproj|solutionrelative:services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0D1A3CB-6D1C-46C8-B0BD-479B8CC19A58}|gp2.csproj|c:\\users\\berdan\\desktop\\gradpro\\gp2\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D1A3CB-6D1C-46C8-B0BD-479B8CC19A58}|gp2.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0D1A3CB-6D1C-46C8-B0BD-479B8CC19A58}|gp2.csproj|c:\\users\\berdan\\desktop\\gradpro\\gp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0D1A3CB-6D1C-46C8-B0BD-479B8CC19A58}|gp2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0D1A3CB-6D1C-46C8-B0BD-479B8CC19A58}|gp2.csproj|c:\\users\\berdan\\desktop\\gradpro\\gp2\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D1A3CB-6D1C-46C8-B0BD-479B8CC19A58}|gp2.csproj|solutionrelative:services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0D1A3CB-6D1C-46C8-B0BD-479B8CC19A58}|gp2.csproj|c:\\users\\berdan\\desktop\\gradpro\\gp2\\helpers\\automapperprofiles\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0D1A3CB-6D1C-46C8-B0BD-479B8CC19A58}|gp2.csproj|solutionrelative:helpers\\automapperprofiles\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0D1A3CB-6D1C-46C8-B0BD-479B8CC19A58}|gp2.csproj|c:\\users\\berdan\\desktop\\gradpro\\gp2\\services\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0D1A3CB-6D1C-46C8-B0BD-479B8CC19A58}|gp2.csproj|solutionrelative:services\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0D1A3CB-6D1C-46C8-B0BD-479B8CC19A58}|gp2.csproj|c:\\users\\berdan\\desktop\\gradpro\\gp2\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0D1A3CB-6D1C-46C8-B0BD-479B8CC19A58}|gp2.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0D1A3CB-6D1C-46C8-B0BD-479B8CC19A58}|gp2.csproj|c:\\users\\berdan\\desktop\\gradpro\\gp2\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0D1A3CB-6D1C-46C8-B0BD-479B8CC19A58}|gp2.csproj|solutionrelative:repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0D1A3CB-6D1C-46C8-B0BD-479B8CC19A58}|gp2.csproj|c:\\users\\berdan\\desktop\\gradpro\\gp2\\repositories\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0D1A3CB-6D1C-46C8-B0BD-479B8CC19A58}|gp2.csproj|solutionrelative:repositories\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0D1A3CB-6D1C-46C8-B0BD-479B8CC19A58}|gp2.csproj|c:\\users\\berdan\\desktop\\gradpro\\gp2\\dtos\\userdtos\\getuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0D1A3CB-6D1C-46C8-B0BD-479B8CC19A58}|gp2.csproj|solutionrelative:dtos\\userdtos\\getuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0D1A3CB-6D1C-46C8-B0BD-479B8CC19A58}|gp2.csproj|c:\\users\\berdan\\desktop\\gradpro\\gp2\\services\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D1A3CB-6D1C-46C8-B0BD-479B8CC19A58}|gp2.csproj|solutionrelative:services\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserProfile.cs",
-              "DocumentMoniker": "C:\\Users\\berdan\\Desktop\\gradpro\\gp2\\Helpers\\AutoMapperProfiles\\UserProfile.cs",
-              "RelativeDocumentMoniker": "Helpers\\AutoMapperProfiles\\UserProfile.cs",
-              "ToolTip": "C:\\Users\\berdan\\Desktop\\gradpro\\gp2\\Helpers\\AutoMapperProfiles\\UserProfile.cs",
-              "RelativeToolTip": "Helpers\\AutoMapperProfiles\\UserProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T13:59:03.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\berdan\\Desktop\\gradpro\\gp2\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\berdan\\Desktop\\gradpro\\gp2\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T13:28:04.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\berdan\\Desktop\\gradpro\\gp2\\Repositories\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\berdan\\Desktop\\gradpro\\gp2\\Repositories\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Repositories\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABsAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T13:21:59.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\berdan\\Desktop\\gradpro\\gp2\\Repositories\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\berdan\\Desktop\\gradpro\\gp2\\Repositories\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "Repositories\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T13:21:37.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\berdan\\Desktop\\gradpro\\gp2\\Services\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\berdan\\Desktop\\gradpro\\gp2\\Services\\Services\\UserService.cs",
-              "RelativeToolTip": "Services\\Services\\UserService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAIAwwCUAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T12:32:28.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\berdan\\Desktop\\gradpro\\gp2\\Services\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "Services\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\berdan\\Desktop\\gradpro\\gp2\\Services\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "Services\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\berdan\\Desktop\\gradpro\\gp2\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\berdan\\Desktop\\gradpro\\gp2\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAUwDAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T12:32:12.977Z",
+              "WhenOpened": "2025-04-06T13:47:41.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\berdan\\Desktop\\gradpro\\gp2\\Services\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Services\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\berdan\\Desktop\\gradpro\\gp2\\Services\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Services\\Services\\CategoryService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwEQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T13:46:34.379Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\berdan\\Desktop\\gradpro\\gp2\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\berdan\\Desktop\\gradpro\\gp2\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\berdan\\Desktop\\gradpro\\gp2\\Services\\Interfaces\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\berdan\\Desktop\\gradpro\\gp2\\Services\\Interfaces\\ICategoryService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T13:19:03.642Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GetUserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\berdan\\Desktop\\gradpro\\gp2\\DTOs\\UserDTOs\\GetUserDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\UserDTOs\\GetUserDTO.cs",
-              "ToolTip": "C:\\Users\\berdan\\Desktop\\gradpro\\gp2\\DTOs\\UserDTOs\\GetUserDTO.cs",
-              "RelativeToolTip": "DTOs\\UserDTOs\\GetUserDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T13:41:38.212Z",
+              "WhenOpened": "2025-04-06T13:46:35.404Z",
               "EditorCaption": ""
             },
             {

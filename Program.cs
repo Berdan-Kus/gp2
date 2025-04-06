@@ -6,6 +6,7 @@ using gp2.Services.Interfaces;
 using gp2.Repositories.Interfaces;
 using gp2.Repositories;
 using gp2.Helpers.AutoMapperProfiles;
+using gp2.Repositories.Repositories;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +17,10 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddAutoMapper(typeof(UserProfile));
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
+
+builder.Services.AddAutoMapper(typeof(CategoryProfile));
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
 // Add services to the container.
 
 builder.Services.AddControllers();

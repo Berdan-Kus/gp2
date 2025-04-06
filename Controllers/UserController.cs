@@ -37,7 +37,42 @@ namespace gp2.Controllers
         }
 
 
-       
+        [HttpGet("{id}")]
+        public async Task<ActionResult<GetUserDTO>> GetUserById(int id)
+        {
+            var user = await _userService.GetUserByIdAsync(id);
+            if (user == null)
+            {
+                return NotFound("Kullanıcı bulunamadı.");
+            }
+
+            return Ok(user);
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> DeleteUser([FromBody] DeleteUserDTO deleteUserDTO)
+        {
+            var result = await _userService.DeleteUserAsync(deleteUserDTO);
+
+            if (!result)
+                return NotFound("Kullanıcı bulunamadı.");
+
+            return Ok("Kullanıcı başarıyla silindi.");
+        }
+
+
+        [HttpPut]
+        public async Task<IActionResult> UpdateUser([FromBody] UpdateUserDTO updateUserDTO)
+        {
+            var result = await _userService.UpdateUserAsync(updateUserDTO);
+
+            if (!result)
+                return NotFound("Kullanıcı bulunamadı.");
+
+            return Ok("Kullanıcı bilgileri güncellendi.");
+        }
+
+
 
 
     }

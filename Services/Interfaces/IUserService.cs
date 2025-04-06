@@ -12,5 +12,11 @@ namespace gp2.Services.Interfaces
 
         Task<IEnumerable<GetUserDTO>> GetAllUsers();
 
+        Task<GetUserDTO?> GetUserByIdAsync(int id);
+
+        Task<bool> DeleteUserAsync(DeleteUserDTO deleteUserDTO);
+
+        Task<bool> UpdateUserAsync(UpdateUserDTO updateUserDTO);
+
     }
 }

@@ -2,25 +2,25 @@
 {
     public class Transaction
     {
-        public int TransactionId { get; set; } // PK
+        public int TransactionId { get; set; }
         public DateTime TransactionDate { get; set; }
 
-        public int UserId { get; set; } // FK
-        public User User { get; set; } // Navigation property
+        public int UserId { get; set; }
+        public User User { get; set; }
 
-        public int CategoryId { get; set; } // FK
-        public Category Category { get; set; } // Navigation property
+        
+        public Category CategoryId { get; set; }
 
-        public string TransactionDescription { get; set; }
+        public string? TransactionDescription { get; set; }
 
-        public enum TransactionType
-        {
-            income,
-            expense
-        }
-
+        public TransactionType TransactionType { get; set; } // Enum'u property olarak tanımladık.
 
         public int TransactionAmount { get; set; }
     }
 
+    public enum TransactionType
+    {
+        Income,
+        Expense
+    }
 }

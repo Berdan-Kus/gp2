@@ -5,11 +5,11 @@ namespace gp2.Models
 {
     public class User
     {
-        public int UserId { get; set; } // PK
-        public string Username { get; set; } // Kullanıcı adı
-        public string Email { get; set; } // E-posta adresi
-        public string Password { get; set; } // Şifre 
-        public DateTime CreatedAt { get; set; } // Hesap oluşturulma tarihi
+        public int UserId { get; set; }
+        public string Username { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public DateTime CreatedAt { get; set; }
 
         public List<Transaction> Transactions { get; set; }
 

@@ -55,7 +55,7 @@ namespace gp2.Services.Services
 
         public async Task<bool> DeleteCategoryAsync(DeleteCategoryDTO deleteCategoryDTO)
         {
-            // Kullanıcıyı veritabanında kontrol et
+            
             var category = await _categoryRepository.GetCategoryByIdAsync(deleteCategoryDTO.CategoryId);
             if (category == null)
             {

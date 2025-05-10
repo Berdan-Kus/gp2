@@ -17,17 +17,17 @@ namespace gp2.Data
 
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
-            // Değişikliklerin izlendiği tüm entiteler için 'Created' alanını ayarlıyoruz
+            
             foreach (var entry in ChangeTracker.Entries())
             {
                 if (entry.Entity is User user && entry.State == EntityState.Added)
                 {
-                    user.CreatedAt = DateTime.UtcNow; // Yeni kullanıcı eklendiğinde Created alanını ayarla
+                    user.CreatedAt = DateTime.UtcNow; 
                     
                 }
                 if (entry.Entity is Transaction transaction && entry.State == EntityState.Added)
                 {
-                    transaction.TransactionDate = DateTime.UtcNow; // Yeni kullanıcı eklendiğinde Created alanını ayarla
+                    transaction.TransactionDate = DateTime.UtcNow;
 
                 }
             }

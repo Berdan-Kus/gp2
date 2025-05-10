@@ -6,9 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using gp2.DTOs.UserDTOs;
 using Microsoft.AspNetCore.Http.HttpResults;
-using Microsoft.AspNetCore.Mvc;
-using Azure;
 using gp2.Repositories.Interfaces;
+using gp2.DTOs.TransactionDTOs;
+using gp2.Repositories.Repositories;
 
 
 
@@ -55,7 +55,7 @@ namespace gp2.Services.Services
 
         public async Task<bool> DeleteUserAsync(DeleteUserDTO deleteUserDTO)
         {
-            // Kullanıcıyı veritabanında kontrol et
+            
             var user = await _userRepository.GetUserByIdAsync(deleteUserDTO.UserId);
             if (user == null)
             {
@@ -79,6 +79,9 @@ namespace gp2.Services.Services
             await _userRepository.UpdateUserAsync(existingUser);
             return true;
         }
+
+
+        
 
 
 

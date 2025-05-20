@@ -21,6 +21,10 @@ namespace gp2.Helpers.AutoMapperProfiles
 
             CreateMap<Transaction, UpdateTransactionDTO>();
             CreateMap<UpdateTransactionDTO, Transaction>();
+
+            CreateMap<Transaction, GetTransactionDTO>()
+                .ForMember(dest => dest.CategoryId, opt => opt.MapFrom(src => src.Category.CategoryId))
+                .ForMember(dest => dest.CategoryName, opt => opt.MapFrom(src => src.Category.CategoryName));
             
 
         }

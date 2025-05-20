@@ -26,8 +26,11 @@ namespace gp2.Repositories.Repositories
 
         public async Task<IEnumerable<Transaction>> GetAllTransactionsAsync()
         {
-            return await _context.Transactions.ToListAsync();
+            return await _context.Transactions
+                .Include(t => t.Category)
+                .ToListAsync();
         }
+
 
         public async Task<Transaction?> GetTransactionByIdAsync(int id)
         {
@@ -49,7 +52,7 @@ namespace gp2.Repositories.Repositories
 
         public async Task<List<Transaction>> FilterTransaction(FilterTransactionDTO dto)
         {
-            var query = _context.Transactions.AsQueryable();
+            var query = _context.Transactions.Include(t => t.Category).AsQueryable();
 
             // Tarih aralığı
             if (dto.StartDate.HasValue)
@@ -63,11 +66,11 @@ namespace gp2.Repositories.Repositories
                 query = query.Where(t => t.CategoryId == dto.CategoryId.Value);
 
             // İşlem tipi (income/expense)
-            if (Enum.TryParse(typeof(TransactionType), dto.TransactionType, true, out var transactionType))
+            if (!string.IsNullOrEmpty(dto.TransactionType) &&
+                Enum.TryParse(typeof(TransactionType), dto.TransactionType, true, out var transactionType))
             {
                 query = query.Where(t => t.TransactionType == (TransactionType)transactionType);
             }
-
 
             // Minimum ve maksimum tutar
             if (dto.MinAmount.HasValue)
@@ -79,12 +82,12 @@ namespace gp2.Repositories.Repositories
             // Kategori ismi
             if (!string.IsNullOrWhiteSpace(dto.Category))
             {
-                query = query.Include(t => t.Category)
-                             .Where(t => t.Category.CategoryName.Contains(dto.Category));
+                query = query.Where(t => t.Category.CategoryName.Contains(dto.Category));
             }
 
             return await query.ToListAsync();
         }
+
 
 
 

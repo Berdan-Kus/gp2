@@ -12,7 +12,7 @@ using gp2.Data;
 namespace gp2.Migrations
 {
     [DbContext(typeof(FinanceDbContext))]
-    [Migration("20250510133221_InitialCreate")]
+    [Migration("20250510144724_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
